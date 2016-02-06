@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Tests" duration-ms="4172" started-at="2016-02-06T15:09:23Z" finished-at="2016-02-06T15:09:27Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="4172" started-at="2016-02-06T15:09:23Z" finished-at="2016-02-06T15:09:27Z">
+      <class name="dlbi_selenium.LoginTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:dlbi_selenium.LoginTest@39ba5a14]" name="init" is-config="true" duration-ms="1857" started-at="2016-02-06T16:09:23Z" finished-at="2016-02-06T16:09:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testUntitled()[pri:0, instance:dlbi_selenium.LoginTest@39ba5a14]" name="testUntitled" duration-ms="2308" started-at="2016-02-06T16:09:25Z" finished-at="2016-02-06T16:09:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUntitled -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:dlbi_selenium.LoginTest@39ba5a14]" name="tearDown" is-config="true" duration-ms="1248" started-at="2016-02-06T16:09:27Z" finished-at="2016-02-06T16:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dlbi_selenium.LoginTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Tests -->
+</testng-results>
