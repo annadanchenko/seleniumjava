@@ -7,6 +7,7 @@
   <packaging>jar</packaging>
 
   <dependencies>
+  
     <dependency>
       <groupId>org.testng</groupId>
       <artifactId>testng</artifactId>
@@ -20,7 +21,7 @@
     <dependency>
       <groupId>ru.stqa.selenium</groupId>
       <artifactId>webdriver-factory</artifactId>
-      <version>1.1.46</version>
+      <version>1.1.51</version>
     </dependency>
   </dependencies>
   <build>

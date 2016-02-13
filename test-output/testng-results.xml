@@ -2,24 +2,28 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4518" started-at="2016-02-06T15:00:03Z" finished-at="2016-02-06T15:00:07Z">
+  <suite name="Default suite" duration-ms="8265" started-at="2016-02-13T15:00:42Z" finished-at="2016-02-13T15:00:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4518" started-at="2016-02-06T15:00:03Z" finished-at="2016-02-06T15:00:07Z">
-      <class name="dlbi_selenium.LoginTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:dlbi_selenium.LoginTest@7dc36524]" name="init" is-config="true" duration-ms="1969" started-at="2016-02-06T16:00:03Z" finished-at="2016-02-06T16:00:05Z">
+    <test name="Default test" duration-ms="8265" started-at="2016-02-13T15:00:42Z" finished-at="2016-02-13T15:00:50Z">
+      <class name="dlbi_selenium.HomePageTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:dlbi_selenium.HomePageTest@7e0babb1]" name="init" is-config="true" duration-ms="2796" started-at="2016-02-13T16:00:42Z" finished-at="2016-02-13T16:00:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="testUntitled()[pri:0, instance:dlbi_selenium.LoginTest@7dc36524]" name="testUntitled" duration-ms="2540" started-at="2016-02-06T16:00:05Z" finished-at="2016-02-06T16:00:07Z">
+        <test-method status="PASS" signature="testInit()[pri:0, instance:dlbi_selenium.HomePageTest@7e0babb1]" name="testInit" is-config="true" duration-ms="782" started-at="2016-02-13T16:00:45Z" finished-at="2016-02-13T16:00:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testUntitled -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:dlbi_selenium.LoginTest@7dc36524]" name="tearDown" is-config="true" duration-ms="1234" started-at="2016-02-06T16:00:07Z" finished-at="2016-02-06T16:00:08Z">
+        </test-method> <!-- testInit -->
+        <test-method status="PASS" signature="addMovieTest()[pri:0, instance:dlbi_selenium.HomePageTest@7e0babb1]" name="addMovieTest" duration-ms="4663" started-at="2016-02-13T16:00:45Z" finished-at="2016-02-13T16:00:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMovieTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:dlbi_selenium.HomePageTest@7e0babb1]" name="tearDown" is-config="true" duration-ms="1292" started-at="2016-02-13T16:00:50Z" finished-at="2016-02-13T16:00:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- dlbi_selenium.LoginTest -->
+      </class> <!-- dlbi_selenium.HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -1,5 +1,7 @@
 package dlbi_selenium.pages;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 
 /**
@@ -25,5 +27,9 @@ public abstract class Page {
 	public String getTitle() {
 		return webDriver.getTitle();
 	}
+	
+	public boolean isElementPresent(By locator) {
+	   return webDriver.findElements(locator).size() > 0;
+	  }
 
 }

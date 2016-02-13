@@ -1,0 +1,6 @@
+dlbi_selenium\pages\HomePage.class
+dlbi_selenium\pages\MoviePage.class
+dlbi_selenium\pages\LoginPage.class
+dlbi_selenium\pages\Page.class
+dlbi_selenium\util\PropertyLoader.class
+dlbi_selenium\pages\AddMoviePage.class
